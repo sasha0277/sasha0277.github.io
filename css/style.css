@@ -1,0 +1,472 @@
+/* navbar------- */
+:root{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+    
+
+}
+#top_nav{
+    /* width: 100vw; */
+    background-color: #1F1F1F !important;
+    color: white !important;
+    font-size: 15px;
+}
+#top_nav2{
+    /* width: 100vw; */
+    background: radial-gradient(circle, #1f1f1f, #454545 100%) !important;
+    color: white !important;
+    font-size: 15px;
+    /* box-shadow: 10px 10px 11px 0px #454545; */
+    z-index: 99;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 15px;
+}
+.navbar-dark .navbar-brand:hover {
+    color: #E5094D;
+    font-size: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 15px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #E5094D;
+    font-size: 15px;
+}
+
+/* logo image */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 229px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: 0px;
+    border-radius: 0;
+    outline: none;
+}
+ #strom{
+   
+    background: radial-gradient(circle, #000000, #454545 100%) !important;
+    font-size: 30px;
+    color: white;
+    
+    
+ }
+ #strom1{
+   
+    background: radial-gradient(circle, #000000, #454545 100%) !important;
+    font-size: 30px;
+    color: white;
+    
+}
+ #strom2{
+   
+    background: radial-gradient(circle, #000000, #454545 100%) !important;
+    font-size: 30px;
+    color: white;
+    
+}
+
+ #sidebar1{
+     background: #1f1f1f;
+     
+ }
+
+ .card_divider {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration-thickness: 2px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    /* padding: 1rem 1rem; */
+    background: radial-gradient(circle, #000000, #454545 100%) !important;
+}
+.card-header {
+    background: radial-gradient(circle, #000000, #454545 100%) !important;
+}
+
+.card-body {
+    background-color: #1f1f1f;
+   
+}
+
+.btn_cs {
+    border: 1px solid;
+    border-color: #E5094D;
+    color: #E5094D !important;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.post_owner_name {
+    color: #E5094D !important;
+}
+
+#post_section{
+    background: #1f1f1f;
+
+}
+
+#opslag {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+ ;
+}
+.empty_section_opslag{
+  
+    background: #1f1f1f;
+}
+#opslag1{
+    margin-right: 10px;
+    border: aqua;
+   outline: none;
+   border-radius: 14px;
+   background: radial-gradient(circle, #000000, #454545 100%) !important;
+}
+
+#opslag1::placeholder{
+     
+    color: white;
+   text-align: center;
+   
+   
+    
+}
+
+.btn_opslag{
+    border-radius: 14px;
+    
+}
+
+#radio_btn{
+    display: flex;
+    flex-direction: column !important;
+    color:white;
+    
+}
+button, input, optgroup, select, textarea {
+    margin: 12px;
+
+    
+    
+}
+
+#sidebar2{
+    border: none;
+    text-align: center;
+    justify-content: center;
+    
+}
+#sidebar3{
+    border: none;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.btn-outline-primary {
+    color:  white !important;
+    border-color: #E5094D !important;
+   
+    
+}
+
+.btn-outline-primary:hover {
+    background-color: #E5094D;
+    color:white;
+}
+.form-check-input:checked {
+    background-color: #E5094D;
+    border-color: #E5094D;
+    
+}
+
+.img_side{
+    margin: 10px;
+}
+/* @media only screen and (max-width:768px){
+   
+   
+
+} */
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    #sidebar1{
+        background-color : #1f1f1f;
+       
+        text-align: center;
+    }
+  
+   
+
+}
+@media only screen and  (min-width:375px) and (max-width:414px){
+   
+    #synligt .radio_Synligt{
+       
+
+     position: relative;
+     left: 12px;
+     font-size: 14px;;
+        
+    }
+   
+
+}
+
+@media only screen and (max-width:360px){
+   
+    #synligt .radio_Synligt{
+
+     position: relative;
+     left: 30px;
+     font-size: 12px;;
+        
+    }
+   
+
+}
+
+@media only screen and (max-width:320px){
+   
+    #synligt .radio_Synligt{
+
+     position: relative;
+     left: 20px;
+     font-size: 10px;;
+        
+    }
+   
+
+}
+
+
+
+
+/* profilepages */
+
+
+.couple_name_section{
+position: relative;
+top: 120px;
+z-index: 99;
+
+}
+
+.description_profile {
+    background: #1f1f1f;
+}
+
+.btn_sty{
+    outline: none !important;
+    background: radial-gradient(circle, #000000, #525050 100%) !important;
+
+}
+
+.btn-outline-primary {
+    color: white !important;
+    border-color: #1a191b !important;
+}
+button, input, optgroup, select, textarea {
+    margin: 0px;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background: radial-gradient(circle, #000000, #525050 100%) !important;
+    border-color: rgb(214, 32, 62);
+}
+
+#mobile_img{
+    width: 300px ;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid #E5094D;
+}
+
+
+.login {
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    left:52px;
+    text-align: center;
+    justify-content: center;
+}
+
+.mobile_btn{
+    background-color: #E5094D;
+    width: 9rem;
+    height: 2.5rem; 
+    color: white;
+}
+.bigbanner img {
+    width: 420px;
+    height: 220px;
+}
+/* .actContainerContent {
+    background: #2A2927;
+    display: flex;
+    padding: 10px 15px 10px 10px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radus: 4px;
+    color: #FFFFFF;
+}
+.banner img {
+    max-width: 100%;
+    height: auto;
+} */
+
+@media only screen and (max-width:320px){
+    .bigbanner img {
+        width: 350px;
+        height: 150px;
+    }
+
+}
+
+
+@media only screen and (max-width:425px){
+
+    #mobile_img{
+    height: 25vw;   
+    width: 25vw; 
+   border: 2px solid #E5094D;
+   border-radius: 50%;
+   box-shadow: 0 0 5px gray;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+
+   
+}
+.text_couple_name{
+    position: relative;
+    left: 100px;
+}
+
+
+#opslag{
+    font-weight: 100;
+    font-size: 23px;
+    position: relative;
+    top:10px;
+}
+
+#synligt{
+    position: relative;
+    top:-40px;
+    left:18px;
+}
+.bigbanner img {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width:767px){
+
+    #mobile_img{
+    height: 29vw;   
+    width: 50vw; 
+   border: 2px solid #E5094D;
+   border-radius: 50%;
+   box-shadow: 0 0 5px gray;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.mobile_btn{
+    background-color: #E5094D;
+    width:10rem;
+    height: 2.2rem; 
+    color: white;
+    font-size: 0.9rem;
+    
+}
+#page_empty{
+    display:block;
+    outline: none !important;
+    background: black;
+    width: 100%;
+    height: 40px;
+}
+
+
+
+
+
+}
+@media only screen and  (min-width:768px) and (max-width:1023px){
+
+.btn_sty{
+    font-size: 12px;
+    position: relative;
+    top:-20px;
+    
+
+}
+#mobile_img{
+    width: 300px ;
+    height: 150px;
+    position: relative;
+    top:10px;
+}
+.mobile_btn{
+    background-color: #E5094D;
+    width:9rem;
+    height: 2.7rem; 
+    color: white;
+    font-size: 0.7rem;
+    
+}
+.bigbanner img {
+    width: 100%;
+    height: 160px;
+}
+}
+/* #mobile_img{
+    height: 5vw; 
+    width: 5vw; 
+   border: 2px solid #fff;
+   border-radius: 50%;
+   box-shadow: 0 0 5px gray;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+ */
