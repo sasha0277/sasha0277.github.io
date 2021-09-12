@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css">
+
+
+
+
+    <link rel="stylesheet" href="pcardstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark mw-100" id="top_nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">REDIGER PROFIL</a>
+            <a class="navbar-brand" href="#">BETALING</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./profile.html">PROFIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BESKEDER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">AKTIVITET</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">VENNER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LOGOUT</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+
+
+    </nav>
+    <nav class="navbar navbar-expand-md navbar-dark mw-100 " id="top_nav2">
+        <div class="container-fluid">
+            <a class="navbar-brand d-none d-lg-block logo" href="#"><img class="img-fluid" src="img/SwingerenLogo1.png"
+                    alt="" srcset="" style=" filter: brightness(0) invert(1);"></a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-uppercase" aria-current="page" href="#">Strømmen</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="#">Albummer</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="#">Videoer</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="#">Profiler</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="#">Klubber</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="#">chat</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="#">info</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Alt muligt anden
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container mw-100 m-0 p-0">
+
+
+        <div class="row">
+            <!-- <div class="col-12  d-sm-block m-0 ">
+                <div class="container_pcard">
+                    <div class="card">
+                        <img id="img_pcard" src="img/profile.PNG" alt="profile_img">
+                        <h4>Hey Day</h4>
+                        <h5>Mand, 36 År, English</h5>
+                        <div class="details">
+                            <div class="column">
+                                <h2>Oprettet</h2>
+                                <span>2-1-2021</span>
+                            </div>
+                            <div class="column">
+                                <h2>Sidste Online</h2>
+                                <span>17-8-2021</span>
+                            </div>
+
+                        </div>
+                        <div>
+                            <button class="btn circle btn-circle"> 100%</button>
+                        </div>
+                        <div class="buttons">
+
+
+                            <button>Vis fuld profil</button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div> -->
+
+            <div class="col-md-4 pt-3   d-flex justify-content-center  " id="strom1">
+                <div class="col-md-4">
+                    <img id="mobile_img" src="./img/profile.PNG" class="rounded mx-auto  img-fluid mt-2" alt="...">
+
+
+                </div>
+            </div>
+            <div class="col-md-8 d-flex  justify-content-start" id="strom2">
+
+
+
+                <section class="couple_name_section">
+
+
+                    <h4 class="text-white text-start d-none d-md-block " style="font-weight: 400; font-size: bold">
+                        Couple 865
+                    </h4>
+
+                    <div class="btn-group d-none d-md-block btn_size " role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-primary  btn_sty ">Hvem har kigger? </button>
+                        <button type="button" class="btn btn-outline-primary  btn_sty ">Min albummer</button>
+                        <button type="button" class="btn btn-outline-primary  btn_sty">Min Videoer</button>
+                        <button type="button" class="btn btn-outline-primary  btn_sty">Gesterbog</button>
+                        <button type="button" class="btn btn-outline-primary  btn_sty">Likes</button>
+
+                    </div>
+                </section>
+                <div class="row">
+
+                    <div class=" login d-md-none ">
+
+                        <div>
+                            <td> <span style="color:#E5094D">Oprettet:</span> </td>
+                            <td class="login">d 1 jan 2021</td>
+                            <td class="login">Tid :18.37</td>
+                        </div>
+                        <div>
+                            <td> <span style="color:#E5094D">Sidste online: </span> </td>
+                            <td class="login">d 1 jan 2021</td>
+                            <td class="login">Tid :18.37</td>
+                        </div>
+
+
+                        <!-- <table cellspacing="0" cellpadding="0" style="color:#FFF;" align="center">
+                            <tr>
+                                <td class="userInfoLeft">Oprettet:</td><td width="10"></td>
+                                <td class="userInfoRight">Onsdag d. 2. sep 2020 18:37</td>
+                            </tr>
+                            <tr>
+                                <td class="userInfoLeft">Sidst online:</td><td width="10"></td>
+                                <td class="userInfoRight">Tirsdag d. 17. aug 2021 21:04</td>
+                            </tr>
+                            </table>
+                            <br>
+                            <table style="width:100%;">
+                            <tr>   -->
+
+
+
+                        <h4 class="text-white  d-none d-md-block  text-center text_couple_name"
+                            style="font-weight: 400; font-size: bold; text-align: right">Couple 865</h4>
+                    </div>
+                    <!-- <div class="col-12 d-flex justify-content-center">
+
+
+
+
+                        
+                        <div class="btn-group btn-sm-block d-sm-block d-md-none ">
+                            <button type="button" class="btn btn-outline-primary dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="width: 250px;">
+                                Detailed info
+                            </button>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#">Hvem har kigger?</a></li>
+                                <li><a class="dropdown-item" href="#">Min albummer</a></li>
+                                <li><a class="dropdown-item" href="#">Min Videoer</a></li>
+                                <li><a class="dropdown-item" href="#">Gesterbog</a></li>
+                                <li><a class="dropdown-item" href="#">Likes</a></li>
+                                <li>
+
+                            </ul>
+                        </div>
+
+
+                    </div> -->
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+
+            <div class="col-md-4 description_profile d-none d-md-block">
+
+
+                <div class="col-12  text-center"> justify-content-center ">
+                    <h4 class=" text-white">Oprettet</h4>
+                    <p class="text-muted"> dato : ons d: 2 sep 2021 <br /> <span>tid 18.57</span></p>
+
+                </div>
+                <div class="col-12  text-center"> justify-content-center ">
+                    <h4 class=" text-white">Sidste Online</h4>
+                    <p class="text-muted"> dato : ons d: 2 sep 2021 <br /> <span>tid 18.57</span></p>
+
+                </div>
+
+
+
+                <div class="col-12 d-flex justify-content-center mb-2 ">
+
+                    <button type="button" class="btn btn-outline-primary btn_sty btn-lg-block"
+                        style="width: 150px;">Bloker Profil</button>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center mb-2">
+
+
+                    <button type="button" class="btn btn-outline-primary btn_sty btn.lg-block"
+                        style="width: 150px;">Anmeld Profil</button>
+                </div>
+
+            </div>
+
+            <div class="col-md-8 description_profile d-none d-sm-none d-md-block">
+
+                <p style="color: #E5094D"> <span class="text-white">This portion will come from backend filling
+                        form</span> <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolorem
+                    alias ab eaque inventore excepturi sit vero! Mo</p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 empty_section_opslag">
+                <div class="col-4 empty_section_opslag">
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 empty_section_opslag">
+                <label for="body" class="mb-3">
+                    <h6 id="opslag">Skrive opslag</h6>
+
+                </label>
+                <div class="col-12">
+
+
+
+                    <form class="d-flex ">
+                        <textarea name="body" id="opslag1" cols="60" rows="1"
+                            placeholder="Hvad har du i hjerte?"
+                            style="background-color: black; color: white;"></textarea>
+
+                            <button class="btn btn_opslag mobile_btn ml-2 p-2 " type="submit">Send
+                                Opslag</button>
+                        
+                    </form>
+                </div>
+                <div class="col-md-12">
+                    <div class="row d-flex justify-content-center text-white mt-5  d-sm-block" id="synligt">
+                        <div class="col-md-3 ">
+
+                            <h6 class="text-center" style="font-weight: 400;">Kun Synligt for:</h6>
+                        </div>
+
+                        <div class="col-md-9 radio_Synligt ">
+
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Alle</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Kun venner</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Kun fra 100%
+                                    brugere</label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+
+                </div>
+
+
+
+
+            </div>
+            <div class="col-md-3 empty_section_opslag d-flex justify-content-right" id="sidebar1">
+
+                
+               
+
+                    <section class="city_swingers_sidebar " id="sidebar2">
+                        <h4 class="mb-2 text-center" style="color: white;">Seneste Medlemmer</h4>
+                        <div class="row ">
+                            <div class="col">
+
+                                <img src="img/sidebar2image.png" class="img-fluid img_side"
+                                    style="max-width: 200px;" alt="">
+                            </div>
+                            <h4 class="mb-2 text-center" style="color: white;">Seneste Billeder</h4>
+
+                            <div class="col">
+
+                                <img src="img/sidebar2image.png" class="img-fluid img_side"
+                                    style="max-width: 200px;" alt="">
+
+                            </div>
+                            <h4 class="mb-2 text-center" style="color: white;">Seneste Videoer</h4>
+
+
+                            <div class="col">
+
+                                <img src="img/sidebar2image.png" class="img-fluid img_side"
+                                    style="max-width: 200px;" alt="">
+
+                            </div>
+
+
+                        </div>
+                
+
+
+            </div>
+               
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        
+
+
+
+    </div>
+
+    <footer class="footer ">
+
+
+        <div class="row d-flex bigbanner">
+
+
+
+            <div class="col-md-4 ">
+                <div class="actContainerContent banner">
+
+                    <a href="https://cityswingers-indefra.dk/" target="_blank"><img  src="img/inside.jpg" ></a>
+                </div>
+
+            </div>
+            <div class="col-md-4 ">
+                <div class="actContainerContent banner">
+                <a href="http://www.swingertv.dk" target="_blank"><img  src="img/stvb.gif"></a>
+                 </div>
+            </div>
+            <div class="col-md-4 ">
+
+                <a href="http://www.xxdarkmovies.dk" target="_blank"><img  src="img/banner_xx2.gif"></a>
+
+            </div>
+        </div>
+
+
+
+
+    </footer>
+
+
+
+    <div class="row">
+        <div class="col-12  ">
+            <p id="page_empty">
+
+
+            </p>
+        </div>
+    </div>
+
+    <nav class="nav  d-md-none btn_sty">
+
+
+        <a href="#" class="nav__link ">
+            <i class="material-icons nav__icon">people_alt</i>
+            <span class="nav__text">HvemKigger</span>
+        </a>
+        <a href="#" class="nav__link">
+            <i class="material-icons nav__icon">photo_library</i>
+            <span class="nav__text">Album</span>
+        </a>
+        <a href="#" class="nav__link">
+            <i class="material-icons nav__icon">ondemand_video </i>
+            <span class="nav__text">Videoer</span>
+        </a>
+        <a href="#" class="nav__link">
+            <i class="material-icons nav__icon">auto_stories</i>
+            <span class="nav__text">GæsterBog</span>
+        </a>
+        <a href="#" class="nav__link">
+            <i class="material-icons nav__icon">favorite</i>
+            <span class="nav__text">Likes</span>
+        </a>
+    </nav>
+    
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

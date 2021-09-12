@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+}
+.menu {
+    background: linear-gradient(to right, rgba(16, 16, 16, 0.95), rgba(16, 16, 16, 0.95));
+}
+
+.menu li {
+    padding: 0 0.7rem;
+}
+
+.menu a {
+    color: #fff !important;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.register-background {
+    background-image: url('./img/register_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+
+/* .img_swinger{
+      background-image: url('./img/SwingerenLogo1.png');
+      background-repeat: no-repeat;
+      width: 300px; height: 100px;
+      filter: brightness(0) invert(1);
+     
+
+  } */
+
+#logo {
+    width: 300px;
+    height: 43px;
+    position: relative;
+    top: 41px;
+    left: 496px;
+}
+@media only screen and (max-width:450px) {
+    #logo {
+        width: 206px;
+        height: 31px;
+        position: relative;
+        left: 20%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    #logo {
+        width: 246px;
+        height: 31px;
+        position: relative;
+        left: 40%;
+    }
+}
+
+.register-background {
+    background-color: #000000;
+}
+
+.form_background{
+    background: radial-gradient(circle, #1f1f1f, #1f1e1e 100%) !important;
+}
+
+.hello{
+    position: relative;
+    top: -100px;
+}
+
+.form-control{
+    background-color: #3e3c3c;
+    outline: none !important;
+    border-radius: 12px !important;
+    border: 0;
+}
+.form-control::placeholder{
+    color:white;
+    
+}
+
+.accept{
+    text-align: center;
+}
+
+.whiteLink{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.profile-button{
+    background-color: #E5094D;
+    border:0;
+}
+
+
+@media only screen and (max-width: 375px){
+
+    
+}
+
+
+
+
+
+
+
+
