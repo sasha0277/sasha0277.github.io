@@ -26,6 +26,7 @@
 
 #post_section{
     background: #1f1f1f;
+    
 
 }
 
@@ -97,7 +98,8 @@
     font-size: 1rem;
     color: white;
     text-align: left;
-    background: radial-gradient(circle, #000000, #454545 100%) !important;
+    /* background: radial-gradient(circle, #000000, #454545 100%) !important; */
+    background: #1f1f1f;
     border : none !important;
     border-radius: none !important;
     
@@ -106,7 +108,7 @@
 
 .accordion-button:not(.collapsed) {
     color: white;
-    background-color: black;
+    background-color: black !important;
     border: none !important;
     border-radius: none !important;
     /* box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%); */
@@ -189,6 +191,7 @@
 .tak{
     position: relative;
     left: 100px;
+    
 
 
 }
@@ -239,7 +242,7 @@
 
     .time_ipad{
 
-        font-size:10px !important;
+        font-size:12px !important;
 
     }
 

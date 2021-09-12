@@ -1,8 +1,12 @@
 /* navbar------- */
+*{
+    font-family: 'Roboto', sans-serif;
+}
 :root{
     margin: 0 !important;
     padding: 0 !important;
     overflow-x: hidden;
+    
 }
 body{
     margin: 0 !important;
@@ -87,7 +91,7 @@ body{
 }
 
  #sidebar1{
-     background: #1f1f1f;
+     background: #1E1E1E;
      
  }
 
@@ -327,8 +331,9 @@ button, input, optgroup, select, textarea {
     color: white;
 }
 .bigbanner img {
-    width: 420px;
+    width: 400px;
     height: 220px;
+    
 }
 /* .actContainerContent {
     background: #2A2927;
