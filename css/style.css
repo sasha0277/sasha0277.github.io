@@ -15,6 +15,11 @@ body{
     
 
 }
+
+.uni_padding{
+    padding: 0 8%;
+    background: #000000;
+}
 #top_nav{
     /* width: 100vw; */
     background-color: #000000 !important;
@@ -31,20 +36,21 @@ body{
 }
 .navbar-dark .navbar-brand {
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
 }
 .navbar-dark .navbar-brand:hover {
     color: #E5004C;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
-    font-size: 15px;
+    font-size: 13px;
+    
 }
 .navbar-dark .navbar-nav .nav-link:hover{
     color: #E5004C;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 /* logo image */
