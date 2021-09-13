@@ -22,9 +22,9 @@
     }
 
     .list-group-item{
-        background: #1f1f1f;
+        background: #000000;
         color:white;
-        border: 1px solid grey;
+        border: 1px solid #282828;
         border-top: none;
         border-left: none;
         border-right: none;
@@ -39,7 +39,7 @@
     }
     .list-group-item:hover{
     background: radial-gradient(circle, #000000, #454545 100%) !important;
-    color: #E5094D;
+    color: #E5004C;
     }
 
     .menu_text{
@@ -48,15 +48,15 @@
 
     /* sidebarsection 2 */
     #sidebar1{
-        background: #1f1f1f;
+        background: #000000;
         
 
     }
     .accordion-body {
-    padding: 1rem 1.25rem;
+    padding: 0.5rem ;
 
-    background-color: #1f1f1f !important;
-    border-radius: none !important;
+    background-color: #000000 !important;
+    border-radius: 0 !important;
     }
 
     .accordion-button {
@@ -64,21 +64,21 @@
         display: flex;
         align-items: center;
         width: 100%;
-        padding: 1rem 1.25rem;
+        padding: 1rem ;
         font-size: 1rem;
         color: white;
         text-align: left;
       
-        background-color: #1f1f1f !important;
-        border : none !important;
-        border-radius: none !important;
+        background-color: #000000 !important;
+        
+         
         
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
     }
 
     .accordion-button:not(.collapsed) {
         color: white;
-        background-color: #1f1f1f !important;
+        background-color: #000000 !important;
         
         border: none !important;
         border-radius: none !important;
@@ -95,8 +95,8 @@
 
     .accordion-button::after {
         flex-shrink: 0;
-        width: 1.25rem;
-        height: 1.25rem;
+        width: .75rem;
+        height: 1.0rem;
         margin-left: auto;
         content: "";
         /* background-image: url("./dropdown_arrow.png") ; */
@@ -131,7 +131,7 @@
 
     .card_club{
         /* background: radial-gradient(circle, #000000, #454545 100%) !important; */
-        background-color: #1f1f1f !important;
+        background-color: #000000 !important;
     }
 
     /* .card-body1 {
@@ -143,20 +143,22 @@
     .card-body1 {
         
     
-        background: #282828;
-        height:130px;
-        width: 229px;
-        margin:5px;
-        padding:5px;
-        text-align:center;
+        background: #1E1E1E;
+        height:105px;
+        width: 262px;
+        margin:0px;
+        padding:5px 15px;
+        
         
     }
 
     .card-body_left{
-        background-color: #282828 !important;
+        background-color: #1E1E1E !important;
         
         padding: 15px;
         font-size: 12px;
+        width:262px;
+        height:465px;
     }
 
 
