@@ -163,8 +163,8 @@
 
     .footer_link a{
     
-            color: #59595B;
-            text-decoration:none;
+            color: #59595B !important;
+            text-decoration:none !important;
             
     
 
