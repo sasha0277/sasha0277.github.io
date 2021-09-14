@@ -161,5 +161,21 @@
         height:465px;
     }
 
+    .footer_link a{
+    
+            color: #59595B;
+            text-decoration:none;
+            
+    
 
- 
+    }
+    .footer_link ul{
+    
+            list-style: none;
+            
+    
+
+    }
+
+
+   
