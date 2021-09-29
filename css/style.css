@@ -18,18 +18,18 @@ body{
 
 .uni_padding{
     padding: 0 8%;
-    background: #000000;
+    background: #141716 !important;
 }
 
 #top_nav{
     /* width: 100vw; */
-    background-color: #000000 !important;
+    background-color: #141716 !important;
     color: white !important;
     font-size: 15px;
 }
 #top_nav2{
     /* width: 100vw; */
-    background: radial-gradient(circle, #000000, #454545 100%) !important;
+    background: radial-gradient(circle, #141716, #454545 100%) !important;
     color: white !important;
     font-size: 15px;
     /* box-shadow: 10px 10px 11px 0px #454545; */
@@ -76,7 +76,7 @@ body{
 }
  #strom{
    
-    background: radial-gradient(circle, #000000, #454545 100%) !important;
+    background: radial-gradient(circle, #141716, #454545 100%) !important;
     font-size: 30px;
     color: white;
     
@@ -84,24 +84,27 @@ body{
  }
  #strom1{
    
-    background: radial-gradient(circle, #000000, #454545 100%) !important;
+    background: radial-gradient(circle, #141716, #454545 100%) !important;
     font-size: 30px;
     color: white;
     
 }
  #strom2{
    
-    background: radial-gradient(circle, #000000, #454545 100%) !important;
+    background: radial-gradient(circle, #141716, #454545 100%) !important;
     font-size: 30px;
     color: white;
     
 }
 
  #sidebar1{
-     background: #000000;
+     background: #141716;
      
  }
 
+#sidebar_footer{
+    background: #000000 !important;
+}
  .card_divider {
     margin-top: 0;
     margin-bottom: 0;
@@ -111,10 +114,10 @@ body{
 .card-body {
     flex: 1 1 auto;
     /* padding: 1rem 1rem; */
-    background: radial-gradient(circle, #000000, #454545 100%) !important;
+    background: radial-gradient(circle, #141716, #454545 100%) !important;
 }
 .card-header {
-    background: radial-gradient(circle, #000000, #454545 100%) !important;
+    background: radial-gradient(circle, #141716, #454545 100%) !important;
 }
 
 .card-body {
@@ -137,7 +140,7 @@ body{
 }
 
 #post_section{
-    background: #1f1f1f;
+    background: #141716;
 
 }
 
@@ -150,14 +153,14 @@ body{
 }
 .empty_section_opslag{
   
-    background: #000000;
+    background: #141716;
 }
 #opslag1{
     margin-right: 10px;
     border: aqua;
    outline: none;
    border-radius: 14px;
-   background: radial-gradient(circle, #000000, #454545 100%) !important;
+   background: radial-gradient(circle, #141716, #454545 100%) !important;
 }
 
 #opslag1::placeholder{
@@ -229,7 +232,7 @@ button, input, optgroup, select, textarea {
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
     #sidebar1{
-        background-color : #000000;
+        background-color : #141716;
        
         text-align: center;
     }
@@ -291,18 +294,18 @@ z-index: 99;
 }
 
 .description_profile {
-    background: #000000;
+    background: #141716;
 }
 
 .btn_sty{
     outline: none !important;
-    background: radial-gradient(circle, #000000, #525050 100%) !important;
+    background: radial-gradient(circle, #141716, #525050 100%) !important;
 
 }
 
 .btn-outline-primary {
     color: white !important;
-    border-color: #000000 !important;
+    border-color: #141716 !important;
 }
 button, input, optgroup, select, textarea {
     margin: 0px;
@@ -310,7 +313,7 @@ button, input, optgroup, select, textarea {
 
 .btn-outline-primary:hover {
     color: #fff;
-    background: radial-gradient(circle, #000000, #525050 100%) !important;
+    background: radial-gradient(circle, #141716, #525050 100%) !important;
     border-color: rgb(214, 32, 62);
 }
 

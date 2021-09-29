@@ -1,0 +1,75 @@
+.acdQA{
+box-sizing: border-box;
+font-weight: 400;
+}
+
+
+.accordian_section_body{
+    padding: 10px;
+    margin:0px;
+    /* background-color: #1E1E1E; */
+   
+}
+.accordian{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px ;
+}
+
+.accordian-item{
+    border-radius: 5px;
+    padding: 1px; 
+   
+    margin-bottom: -30px;
+    background-color:#1E1E1E;
+}
+
+.accordian-title{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* .accordian-title::after{
+    content:'';
+    background-image: url('../img/arrowCorrect.png') ; 
+    font-size:10px;
+    margin-left: auto;
+
+} */
+
+.accordian-title::after{
+flex-shrink: 0;
+width: .75rem;
+height: 1.0rem;
+margin-left: auto;
+content: "";
+background-image: url("../img/arrowCorrect.png") ;
+background-repeat: no-repeat;
+background-size: 0.7rem;
+transition: transform .2s ease-in-out;
+border-radius: none !important;
+}
+
+
+
+
+.active-header::after{
+    content:'';
+    background-image: url("../img/arrowup.png") ;
+}
+
+
+.accordian-answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: 500ms ease max-height;
+}
+.Reactangle1{
+    width:100%;
+    height:70%;
+}
+.Reactangle2{
+    width:100%;
+    height:70%;
+}

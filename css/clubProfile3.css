@@ -13,32 +13,37 @@
         margin-top: 55px;;
     }
 
-    #block-menu-menu-cityswinger-menu {
+    #block-menu-menu-cityswinger-menu3 {
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
         /* text-transform: uppercase; */
         font-weight: 300;
+        width: 262px;
     }
 
-    .list-group-item{
-        background: #141716;
+    .list-group-item3{
+        background: #000000;
         color:white;
         border: 1px solid #282828;
+        
         border-top: none;
         border-left: none;
         border-right: none;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 8px;
         
 
 
     }
 
-    .list-group-item-action {
+    .list-group-item-action3 {
         width: 83%;
         
     }
-    .list-group-item:hover{
-    background: radial-gradient(circle, #141716, #454545 100%) !important;
+    .list-group-item3:hover{
+    background: radial-gradient(circle, #000000, #454545 100%) !important;
     color: #E5004C;
     }
 
@@ -49,14 +54,14 @@
 
     /* sidebarsection 2 */
     #sidebar1{
-        background: #141716;
+        background: #000000;
         
 
     }
     .accordion-body {
     padding: 0.5rem ;
 
-    background-color: #141716 !important;
+    background-color: #000000 !important;
     border-radius: 0 !important;
     }
 
@@ -70,7 +75,7 @@
         color: white;
         text-align: left;
       
-        background-color: #141716 !important;
+        background-color: #000000 !important;
         
          
         
@@ -79,7 +84,7 @@
 
     .accordion-button:not(.collapsed) {
         color: white;
-        background-color: #141716 !important;
+        background-color: #000000 !important;
         
         border: none !important;
         border-radius: none !important;
@@ -129,22 +134,10 @@
     
         margin-right: 1.5rem;
     }
-    .space_spanhver{
-    
-        margin-right: 3.5rem;
-    }
 
-    .space_spanfre{
-    
-        margin-right: 4.29rem;
-    }
-    .space_spanfrex{
-    
-        margin-right: 6.4rem;
-    }
     .card_club{
         /* background: radial-gradient(circle, #000000, #454545 100%) !important; */
-        background-color: #141716 !important;
+        background-color: #000000 !important;
     }
 
     /* .card-body1 {
