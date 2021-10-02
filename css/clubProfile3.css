@@ -12,7 +12,14 @@
         left:12px;
         margin-top: 55px;;
     }
-
+    #sidebar_club3{
+        background-color: #141716;
+    }
+   
+    .uni_padding_footer{
+        padding: 0 8%;
+        background-color: #000000 !important;
+    }
     #block-menu-menu-cityswinger-menu3 {
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -23,7 +30,7 @@
     }
 
     .list-group-item3{
-        background: #000000;
+        background: #141716 !important;
         color:white;
         border: 1px solid #282828;
         
