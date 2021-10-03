@@ -167,6 +167,32 @@
         
         
     }
+
+    .card-body_events {
+        
+    
+        background: #1E1E1E;
+        height:190px;
+        width: 262px;
+        margin: 0 auto;
+         border-radius: 10px;
+        
+        
+    }
+    .card-body_events:hover{
+         background: #E5004C;
+         height:190px;
+        width: 262px;
+        margin: 0 auto;
+         border-radius: 10px;
+        
+    }
+    .card-body_events:hover h5{
+         color: black !important;
+        
+        
+    }
+  
  
 
     .card-body_left{
