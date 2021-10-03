@@ -20,6 +20,9 @@
         padding: 0 8%;
         background-color: #000000 !important;
     }
+    #list_footer li {
+     list-style-type: none !important;
+    }
     #block-menu-menu-cityswinger-menu3 {
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
