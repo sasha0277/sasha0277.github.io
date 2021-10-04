@@ -153,17 +153,18 @@
 
     .card-body_events {
         background: #1E1E1E;
-        height: 193px;
-        width: 262  px;
-        margin: 0 auto;
+        height: 173px;
+        width: 100%;
+        
+    
         border-radius: 10px;
         font-size: 12px !important;
     }
 
     .card-body_events:hover {
         background: #E5004C;
-        height: 193px;
-        width: 262px;
+        height: 173px;
+        width: 100%;
         margin: 0 auto;
         border-radius: 10px;
         font-size: 12px !important;
@@ -176,6 +177,7 @@
     .card-body_events h4{
         font-size: 18px !important;
     }
+   
 
 
 
