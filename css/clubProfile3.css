@@ -200,8 +200,46 @@
         list-style: none;
     }
 
-    @media (max-width:640px){
-        .container_event{
-            flex-direction: column;
-        }
+    .container_mellem{
+        display: flex;
+        flex-wrap: nowrap;
     }
+
+.card_mellem {
+    background-color: #292B2A;
+    width: 150px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card-image_mellem{
+    
+    height: 100px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0; 
+}
+
+.card-image_mellem_1{
+    background-image: url('../img/mellem.PNG');
+}
+.card-image_mellem_2{
+    background-image: url('../img/mellem.PNG');
+}
+.card-image_mellem_3{
+    background-image: url('../img/mellem.PNG');
+}
+.card-image_mellem_4{
+    background-image: url('../img/mellem.PNG');
+}
+.card-image_mellem_5{
+    background-image: url('../img/mellem.PNG');
+}
+
+
+@media (max-width:650px){
+    .container_mellem{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
