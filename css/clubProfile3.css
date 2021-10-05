@@ -201,45 +201,45 @@
     }
 
     .container_mellem{
-        display: flex;
-        flex-wrap: nowrap;
+        display: flex !important;
+        flex-wrap: nowrap !important;
     }
 
 .card_mellem_new {
-    background-color: #292B2A;
-    width: 150px;
-    height: 220px;
-    margin: 10px;
-    border-radius: 10px;
+    background-color: #292B2A !important;
+    width: 150px !important;
+    height: 220px !important;
+    margin: 10px !important;
+    border-radius: 10px !important;
 }
 .card-image_mellem{
     
-    height: 100px;
-    margin-bottom: 10px;
-    background-size: cover;
-    border-radius: 10px 10px 0 0; 
+    height: 100px !important;
+    margin-bottom: 10px !important;
+    background-size: cover !important;
+    border-radius: 10px 10px 0 0 !important; 
 }
 
 .card-image_mellem_1{
-    background-image: url('../img/mellem.PNG');
+    background-image: url('../img/mellem.PNG') !important;
 }
 .card-image_mellem_2{
-    background-image: url('../img/mellem.PNG');
+    background-image: url('../img/mellem.PNG') !important;
 }
 .card-image_mellem_3{
-    background-image: url('../img/mellem.PNG');
+    background-image: url('../img/mellem.PNG') !important;
 }
 .card-image_mellem_4{
-    background-image: url('../img/mellem.PNG');
+    background-image: url('../img/mellem.PNG') !important;
 }
 .card-image_mellem_5{
-    background-image: url('../img/mellem.PNG');
+    background-image: url('../img/mellem.PNG') !important;
 }
 
 
 @media (max-width:650px){
     .container_mellem{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
     }
 }
