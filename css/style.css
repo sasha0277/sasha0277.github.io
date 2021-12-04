@@ -29,7 +29,8 @@ body{
 }
 #top_nav2{
     /* width: 100vw; */
-    background: radial-gradient(circle, #141716, #454545 100%) !important;
+    background: #292B2A !important;
+    /* background: radial-gradient(circle, #141716, #454545 100%) !important; */
     color: white !important;
     font-size: 15px;
     /* box-shadow: 10px 10px 11px 0px #454545; */
@@ -84,14 +85,16 @@ body{
  }
  #strom1{
    
-    background: radial-gradient(circle, #141716, #454545 100%) !important;
+    /* background: #000000 !important; */
+    background: radial-gradient(circle, #000000, #000000 100%) !important;
     font-size: 30px;
     color: white;
     
 }
  #strom2{
    
-    background: radial-gradient(circle, #141716, #454545 100%) !important;
+    background: radial-gradient(circle, #000000, #000000 100%) !important;
+    
     font-size: 30px;
     color: white;
     
@@ -160,7 +163,7 @@ body{
     border: aqua;
    outline: none;
    border-radius: 14px;
-   background: radial-gradient(circle, #141716, #454545 100%) !important;
+   background: #1E201F !important;
 }
 
 #opslag1::placeholder{
@@ -299,13 +302,13 @@ z-index: 99;
 
 .btn_sty{
     outline: none !important;
-    background: radial-gradient(circle, #141716, #525050 100%) !important;
+    background: #1E201F !important;
 
 }
 
 .btn-outline-primary {
     color: white !important;
-    border-color: #141716 !important;
+    border-color: #292B2A !important;
 }
 button, input, optgroup, select, textarea {
     margin: 0px;
@@ -313,8 +316,8 @@ button, input, optgroup, select, textarea {
 
 .btn-outline-primary:hover {
     color: #fff;
-    background: radial-gradient(circle, #141716, #525050 100%) !important;
-    border-color: rgb(214, 32, 62);
+    background: #292B2A !important;
+    border-color: #141716 !important;
 }
 
 #mobile_img{

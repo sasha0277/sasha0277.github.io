@@ -1,0 +1,19 @@
+.one{
+    list-style: upper-alpha !important;
+}
+
+
+
+ li::before {
+    content: "▪"; 
+    color: #E5004C;
+    size: 1.2rem;
+    margin:1rem;
+}
+
+.betale{
+    justify-content: center;
+    align-items: center;
+  
+}
+
